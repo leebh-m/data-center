@@ -1,0 +1,5 @@
+### Api Documentation
+http://localhost:4000/
+
+### Send test data
+http://localhost:4000/send/username/topic?value=12.23

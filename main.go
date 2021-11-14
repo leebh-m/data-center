@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"data-center/collect"
+	"flag"
+)
 
 func main() {
-	fmt.Println("Hello Go!")
+	collect.Start(*flag.Int("port", 4000, "Set port of the server"))
 }
